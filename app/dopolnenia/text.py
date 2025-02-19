@@ -1,5 +1,5 @@
 import os
-FILES_PATH = r'C:\Users\Екатерина\Desktop\репетишка\pythonProject1\__pycache__'
+FILES_PATH = r'__pycache__'
 def read_file(file_path):
     with open(file_path, encoding='utf-8') as file:
         return [line.strip() for line in file]
