@@ -1,7 +1,8 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from config import TOKEN
+import os
+TOKEN = os.getenv("TOKEN")
 
 from app.handllers import router
 from app.bd.models import async_main
